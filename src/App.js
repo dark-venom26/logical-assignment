@@ -3,7 +3,7 @@ import './App.scss';
 
 function App() {
 
-  const [arg, setArg] = useState({argOption: [{ label: 'My Arg', value: "true"}]})
+  const [arg, setArg] = useState({argOption: [{ label: 'My Arg', value: "false"}]})
 
   const defaultOption = [
     { label: "select...", value: ""},
