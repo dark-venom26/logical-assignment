@@ -1,0 +1,64 @@
+.app{
+
+    &__main{
+        display: flex;
+        flex-direction: column;
+        margin: 25px 0 35px 25px;
+
+        &__arguments{
+            &__arg{
+                &__input{
+                    width: 80px;
+                }
+            }
+
+            &__addArgBtn{
+                width: fit-content;
+            }
+        }
+        
+        &__selectField{
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 2px;
+
+            &__block{
+                &__delBtn{
+                    margin-left: 2px;
+                }
+            }
+        }
+
+        &__result{
+            margin-top: 15px;
+        }
+    }
+    
+}
+
+select{
+    outline-color: rgb(0, 54, 124);
+    &:hover{
+        outline-color: rgb(0, 54, 124);
+    }
+    width: fit-content;
+}
+
+.addBtn{
+    margin-left: 8px;
+    width: fit-content;
+}
+
+.selectBox{
+    margin-left: 8px;
+
+    &__selectField{
+        &__block{
+            &__delBtn{
+                margin-left: 2px;
+            }
+        }
+    }
+}
+
